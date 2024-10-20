@@ -15,7 +15,7 @@ public class HomePage extends BasePage {
 
     @Override
     public void open() {
-        System.out.println(getHOME_URL());
+        System.out.println("Пользователь открыл страницу " + getHOME_URL());
     }
 
     public void clickLogin() {
