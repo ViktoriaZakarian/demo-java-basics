@@ -1,13 +1,9 @@
 package by.itacademy.viktoriazakarian.pages;
 
 public class HomePage extends BasePage {
-    protected String HOME_URL = getBASE_URL() + "/домашняя страница";
+    protected String HOME_URL = BASE_URL + "/домашняя страница";
 
-    public String getHOME_URL() {
-        return HOME_URL;
-    }
-
-    protected String title = "Домашняя страница";
+    String title = "Домашняя страница";
 
     public String getTitle() {
         return title;
@@ -15,7 +11,7 @@ public class HomePage extends BasePage {
 
     @Override
     public void open() {
-        System.out.println("Пользователь открыл страницу " + getHOME_URL());
+        System.out.println("Пользователь открыл страницу " + HOME_URL);
     }
 
     public void clickLogin() {

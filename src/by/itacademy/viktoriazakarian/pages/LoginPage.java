@@ -1,12 +1,8 @@
 package by.itacademy.viktoriazakarian.pages;
 
 public class LoginPage extends BasePage {
-    protected String LOGIN_PAGE = getBASE_URL() + "/форма логина";
+    protected String LOGIN_PAGE = BASE_URL + "/форма логина";
     String title = "Форма логина";
-
-    public String getLOGIN_PAGE() {
-        return LOGIN_PAGE;
-    }
 
     public String getTitle() {
         return title;
@@ -14,6 +10,6 @@ public class LoginPage extends BasePage {
 
     @Override
     public void open() {
-        System.out.println("Пользователь открыл страницу " + getLOGIN_PAGE());
+        System.out.println("Пользователь открыл страницу " + LOGIN_PAGE);
     }
 }
