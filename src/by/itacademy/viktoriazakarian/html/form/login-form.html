@@ -15,15 +15,20 @@
 <p style="color:white">Мы были бы рады получить известия от вас!</p>
 <h1 style="color:white">Связатья с нами</h1>
 <form>
-        <input type="email" class="info" name="email-address"
-               value="Enter a valid email address">
-    <input type="text" class="info" name="fname" value="Enter your name">
+    <label for="email-address"></label>
+        <input type="email" class="info" id="email-address"
+               placeholder="Enter a valid email address">
+    <label for="name"></label>
+    <input type="text" class="info" id="name" placeholder="Enter your name">
     <br><br>
-    <input type="text" class="info" name="address" value="Enter your address">
-    <input type="tel" class="info" name="phone" value="Enter your phone (e.g.+141">
+    <label for="address"></label>
+    <input type="text" class="info" id="address" placeholder="Enter your address">
+    <label for="phone"></label>
+    <input type="tel" class="info" id="phone" placeholder="Enter your phone (e.g.+141">
     <br><br>
-    <textarea name="message" style="color:grey; width:415px; height:150px;">Enter your message
-    </textarea>
+    <label for="message"></label>
+    <textarea id="message" style="color:grey; width:415px; height:150px;"
+              placeholder="Enter your message">Enter your message</textarea>
     <br><br>
     <input type="submit" value="Представлять на рассмотрение"
            style="background-color:darkorange; color:white; width:415px; height:40px; font-size:20px">
