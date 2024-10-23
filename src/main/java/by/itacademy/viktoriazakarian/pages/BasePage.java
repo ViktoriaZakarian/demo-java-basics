@@ -1,6 +1,7 @@
 package by.itacademy.viktoriazakarian.pages;
 
 public class BasePage {
+
     protected String BASE_URL = "BASE URL";
 
     public void open() {
