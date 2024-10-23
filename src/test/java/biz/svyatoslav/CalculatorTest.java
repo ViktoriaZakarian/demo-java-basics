@@ -16,5 +16,6 @@ public class CalculatorTest {
         By by = By.xpath(xpath);
         WebElement webElement = webDriver.findElement(by);
         webElement.click();
+
     }
 }
